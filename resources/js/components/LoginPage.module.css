@@ -1,0 +1,69 @@
+/* LoginPage.module.css */
+
+.form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 320px;
+}
+
+.head_login {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.all_data {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.all_data label {
+  font-size: 14px;
+  color: #555;
+  text-align: left;
+}
+
+.all_data input {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.3s ease;
+}
+
+.all_data input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.login_btn {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login_btn:hover {
+  background-color: #0056b3;
+}
+.error {
+  color: red; 
+  font-size: 0.875rem; 
+  margin-top: 0.25rem;
+}
+
+@media (max-width: 768px) {
+  .form {
+    width: 90%;
+    padding: 30px;
+  }
+}
