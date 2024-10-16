@@ -1,0 +1,101 @@
+.allSiteShoes {
+  position: relative;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://www.superkicks.in/cdn/shop/files/1_-_2024-08-15T111625.903.jpg?v=1723700975');
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.nikeBack {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  max-width: 90%;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .nikeBack {
+    padding: 15px;
+  }
+
+  .allSiteShoes {
+    height: auto;
+  }
+}
+
+.section_one {
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro;
+}
+
+.section_one_container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr; 
+  grid-template-rows: auto; 
+  gap: 5px; 
+}
+
+.item1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 2; 
+  grid-row: 1 / span 2; 
+}
+
+.item3 {
+  grid-column: 1;
+  grid-row: 2; 
+}
+
+.item4 {
+ 
+  grid-row: 2; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  align-items: flex-start; 
+  gap: 5px; 
+}
+
+h4, h3, p {
+  margin: 0; 
+}
+
+.explore_btn {
+  background-color: black; 
+  color: white; 
+  padding: 10px 15px; 
+  border: none; 
+  border-radius: 7px;
+  cursor: pointer; 
+}
+
+
+.item1 img,
+.item3 img {
+  height: 250px;
+  width: 250px;
+}
+
+.item2 img {
+  width: 300px;
+  height: 520px; 
+}

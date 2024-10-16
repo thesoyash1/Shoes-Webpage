@@ -1,0 +1,65 @@
+.alertTop {
+  background-color: #d9edf7;
+  padding: 10px;
+  border: 1px solid #bce8f1;
+  color: #31708f;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.navSite .nav {
+  justify-content: center;
+}
+
+.containerNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+}
+
+.navSite {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center; 
+}
+
+.addCartIcon svg {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 25px;
+}
+.navSite .nav-link {
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.navSite .aboutLink, .contactLink, .menShoesLink {
+  border-radius: 7px;
+  margin: 0 5px 0 5px;
+  background-color: #818486;
+  color: white;
+  padding: 10px;
+    display: flex;
+    text-decoration: none;
+}
+
+
+.containerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.siteLogo img {
+  width: 50px;
+}
+
+.addCartIcon {
+  font-size: 1.5rem;
+}
+
+
